@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  WEBAPP: <nitiu-webapp>
-  RESOURCE_GROUP: <jboss-rg>
+  WEBAPP: nitiu-webapp
+  RESOURCE_GROUP: jboss-rg
   STORAGE_ACCOUNT: ""  # This must be a *globally* unique name. (Only lowercase letters and numbers allowed. No spaces, dashes, underscores.)
 
   LOCATION: eastus
